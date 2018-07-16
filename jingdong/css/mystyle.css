@@ -1,0 +1,171 @@
+:focus {
+	outline: none;
+}
+
+#top {
+	height: 60px;
+	width: 990px;
+	margin: 0 auto;
+}
+
+#top img {
+	vertical-align: middle;
+}
+
+#top h1 {
+	margin: 0 0 0 16px;
+	display: inline;
+	vertical-align: middle;
+	font-size: 26px;
+	color: #666;
+	font-weight: 400;
+}
+
+#container {
+	height: 475px;
+	background-color: #E93854;
+}
+
+#main {
+	width: 990px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../img/banner.png) no-repeat;
+	position: relative;
+}
+
+#form_box {
+	width: 306px;
+	padding: 20px;
+	background-color: #fff;
+	position: absolute;
+	top: 70px;
+	right: 60px;
+}
+
+#form_box h1 {
+	height: 26px;
+	line-height: 26px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #666;
+	margin: 0 0 16px;
+}
+
+#form_box h1 a {
+	padding-left: 20px;
+	font-size: 14px;
+	color: #f00;
+	text-decoration: none;
+	float: right;
+	background: url(../img/login-icons.png) no-repeat -103px -70px;
+}
+
+.form-field {
+	width: 304px;
+	height: 38px;
+	border: 1px solid #BDBDBD;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form-field label {
+	width: 38px;
+	height: 38px;
+	border-right: 1px solid #BDBDBD;
+	background: url(../img/login-icons.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.form-field:last-child label {
+
+	background-position: -48px 0;
+
+}
+
+.form-field input {
+	width: 254px;
+	height: 38px;
+	padding: 0 0 0 50px;
+	border: none;
+	
+}
+
+#login {
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #666;
+}
+
+#login input {
+	vertical-align: middle;
+}
+
+#login a {
+	float: right;
+	text-decoration: none;
+	color: #666;
+}
+
+
+#form_box button {
+	width: 100%;
+	height: 34px;
+	background-color: #E4393C;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	/*padding: 8px 0;*/
+}
+
+#bottom {
+	width: 990px;
+	height: 60px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #666;
+}
+
+#bottom ul {
+	width: 800px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+#bottom ul li {
+	float: left;
+}
+
+#bottom ul li a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #666;
+	/*border-right: 1px solid #666;*/
+}
+
+ #bottom ul li::after {
+	content: "|";
+	font-size: 12px;
+	color: #666;
+} 
+
+ #bottom ul li:last-child::after {
+	content: "";
+} 
+
+
+#bottom ul li a:hover {
+	color: #f00;
+	text-decoration: underline;
+} 
+
+#bottom p {
+	margin: 10px 0;
+	text-align: center;
+} 
